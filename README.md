@@ -14,10 +14,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  - Windows 10 (21H2)
 <h2> List of Prerequisites</h2>
   
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
+  - Create Resource Group in Azure
+  - Create Virtual Machine in Azure
+  - Login VM with Remote Desktop
+  - Install/Enable Internet Information Services with CGI and Common HTTP
+  - Create PHP folder in C:
+  - Install PHP Manager for IIS
+  - Install Rewrite
+  - Install/Extract PHP 7.3.8 into PHP folder
+  - Install Microsoft Visual C++
+  - Install MySQL 5.5.62
+  - Register PHP within IIS
+  - Install/Extract osTicket v1.15.8 into wwwroot folder
+  - Enable osTicket extensions
+  - 
 <h2> Installation Steps</h2>
 
