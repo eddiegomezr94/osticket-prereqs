@@ -6,7 +6,7 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTickets on an Azure virtual machine.
 <h2> Environments and Technologies Used</h2>
  
- - Microsoft Azure
+  - Microsoft Azure 
   - Remote Desktop
   - Internet Information Services (IIS)
 <h2> Operating System Used</h2>
@@ -27,6 +27,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Register PHP within IIS
   - Install/Extract osTicket v1.15.8 into wwwroot folder
   - Enable osTicket extensions
-  - 
+  - Rename ost-sampleconfig.php and assign ne permissions
+  - Set up remainder of osTicket system
+  - Install Heidi SQL
+  - Create Database
+  - Delete Setup file
+  - Set "read" only permission in ost-config.php
+
 <h2> Installation Steps</h2>
 
