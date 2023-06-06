@@ -9,13 +9,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Microsoft Azure 
   - Remote Desktop
   - Internet Information Services (IIS)
-<h2> Operating System Used</h2>
+<h2> Operating System Used</h2> 
  
  - Windows 10 (21H2)
 <h2> List of Prerequisites</h2>
   
   - Create Resource Group in Azure
-  - Create Virtual Machine in Azure
+  - Create Virtual Machine (VM) in Azure 
   - Login VM with Remote Desktop
   - Install/Enable Internet Information Services with CGI and Common HTTP
   - Create PHP folder in C:
@@ -35,4 +35,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Set "read" only permission in ost-config.php
 
 <h2> Installation Steps</h2>
+
+<h3> Create Resource Group in Azure</h3>
+
+<img src=https://imgur.com/cpDJmAf.png>
+
+  - The first step was to create a Resource Group in Azure in order for the Virtual Machine (VM) to be created.
+
+
+<h3> Create (VM) in Azure</h3>
+<img src=https://imgur.com/ectsYRH.png>
+  
+ 
 
