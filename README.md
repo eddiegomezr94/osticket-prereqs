@@ -20,7 +20,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Install/Enable Internet Information Services with CGI and Common HTTP
   - Create PHP folder in C:
   - Install PHP Manager for IIS
-  - Install Rewrite
+  - Install Rewrite Module
   - Install/Extract PHP 7.3.8 into PHP folder
   - Install Microsoft Visual C++
   - Install MySQL 5.5.62
