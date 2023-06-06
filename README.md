@@ -27,7 +27,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Register PHP within IIS
   - Install/Extract osTicket v1.15.8 into wwwroot folder
   - Enable osTicket extensions
-  - Rename ost-sampleconfig.php and assign ne permissions
+  - Rename ost-sampleconfig.php and assign new permissions
   - Set up remainder of osTicket system
   - Install Heidi SQL
   - Create Database
