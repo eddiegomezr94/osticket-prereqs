@@ -1,9 +1,12 @@
-<p allign="center">
+<p align="center">
 <img src=https://i.imgur.com/CYzlgsS.png>
 </p>
 
+<div align="center">
 <h1>osTicket - Prerequisites and Installation</h1>
+</div>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTickets on an Azure virtual machine.
+
 <h2> Environments and Technologies Used</h2>
  
   - Microsoft Azure 
@@ -36,15 +39,27 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2> Installation Steps</h2>
 
+<div align="center">
 <h3> Create Resource Group in Azure</h3>
-
+</div>
 <img src=https://imgur.com/cpDJmAf.png>
+ 
+ - The first step was to create a Resource Group in Azure in order for the Virtual Machine (VM) to be created.
 
-  - The first step was to create a Resource Group in Azure in order for the Virtual Machine (VM) to be created.
-
-
+<div align="center">
 <h3> Create (VM) in Azure</h3>
+</div>
 <img src=https://imgur.com/ectsYRH.png>
+
+ - The next step after creating a Resource Group was to create the VM that would be used to install the osTicket system.
+
+<div align="center">
+<h3> Login with Remote Desktop</h3>
+</div>
+<img src=https://imgur.com/ttqoM2s.png>
+
+ - After creating the VM, copy and paste the public IP address to the Remote Desktop Connection app on your computer. Then proceed to log into the VM using the username and password made when creating the VM.
+
   
  
 
