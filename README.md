@@ -70,7 +70,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <div align="center">
 <h3> Install IIS Rewrite Module </h3>
 </div>
+<div align="center">
 <img src=https://imgur.com/3ML6shu.png>
+</div>
 
  - After turning on specific features the next step is to download IIS Rewrite Module.
 
@@ -86,7 +88,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </div>
 <img src=https://imgur.com/okstLsI.png>
 
- - While the files are downloading go to your C: folder in order to create a new folder and name it PHP. 
+ - While the files are downloading go to C: drive in your files in order to create a new folder and name it PHP. 
 
 <div align="center">
 <h3> PHP 7.3.8 Download/Extract </h3>
@@ -96,23 +98,31 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  - After making the PHP folder the next step is to download PHP 7.3.8 software. Once it finishes downloading extract all the files into the PHP folder created in the previous step.
 
 <div align="center">
-<h3> </h3>
+<h3> Install Microsoft Visual C++ </h3>
 </div>
-<img src=.png>
+<div align="center">
+<img src=https://imgur.com/EH65NuL.png>
+</div>
 
- - 
+- The next step is to install Microsoft Visual C++.
 
 <div align="center">
-<h3> </h3>
+<h3>Install MySQL 5.5.62 </h3>
 </div>
-<img src=.png>
+<div align="center">
+<img src="https://imgur.com/T2CS02r.png" width="400" height="300"/> 
+<img src="https://imgur.com/qtXxJqZ.png" width="400" height="300"/> 
+ </div>
 
- - 
+- After installing Microsoft Visual, download and install My SQL 5.5.62 and set to Standard Configuration.
 
 <div align="center">
-<h3> </h3>
+<h3> Register PHP within IIS</h3>
 </div>
-<img src=.png>
+<div align="center">
+<img src="https://imgur.com/872MFRD.png" width="400" height="300"/> 
+<img src="https://imgur.com/1lrII3g.png" width="400" height="300"/> 
+ </div>
 
  - 
 
