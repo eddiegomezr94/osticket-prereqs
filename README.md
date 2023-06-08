@@ -114,7 +114,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://imgur.com/qtXxJqZ.png" width="400" height="300"/> 
  </div>
 
-- After installing Microsoft Visual, download and install My SQL 5.5.62 and set to Standard Configuration.
+- After installing Microsoft Visual, download and install My SQL 5.5.62, set it to Standard Configuration and create a password for your domain.
 
 <div align="center">
 <h3> Register PHP within IIS</h3>
@@ -124,21 +124,28 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://imgur.com/1lrII3g.png" width="400" height="300"/> 
  </div>
 
- - 
+ - Once MySQL is set up, open IIS as an admin and register PHP. Click on PHP-> Register new PHP version-> Browes PHP file created in previous step-> Attach PHP.CGI file-> Click OK. Make sure to reload IIS-> Stop-> Start, in order to make sure PHP was registered and running.
 
 <div align="center">
-<h3> </h3>
+<h3> Install and open osTicket V1.15.8 </h3>
 </div>
-<img src=.png>
+<div align="center">
+<img src="https://imgur.com/koeWoFJ.png" width="400" height="300"/> 
+<img src="https://imgur.com/kn9bzNf.png" width="400" height="300"/> 
+ </div>
 
- - 
+ - The next step is to download osTicket, and extract the "upload" folder to "wwwroot folder". To do this go to C:-> Inetpub-> wwwroot-> drag and drop "upload" folder (from download)-> once file is done extracting rename "upload" to osTicket. After the file is renamed, open osTicket through IIS and observe that certain extensions are not enabled.
 
 <div align="center">
-<h3> </h3>
+<h3>Enable Extensions in PHP </h3>
 </div>
-<img src=.png>
+<div align="center">
+<img src="https://imgur.com/Uti7wpD.png" width="400" height="300"/> 
+<img src="https://imgur.com/obeurld.png" width="400" height="300"/> 
+ </div>
 
- - 
+ - After observing that some extensions are not enabled, in order to enable certain extensions go back to IIS-> Sites-> Default-> osTicket-> PHP Manager-> Enable: php_imap.dll/php_intl.dll/php_opcache.dll. After enabling extensions reload IIS, open osTicket and observe extensions enabled.
+
 
 <div align="center">
 <h3> </h3>
