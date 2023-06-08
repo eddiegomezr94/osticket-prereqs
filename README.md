@@ -72,28 +72,28 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </div>
 <img src=https://imgur.com/3ML6shu.png>
 
- - 
+ - After turning on specific features the next step is to download IIS Rewrite Module.
 
 <div align="center">
 <h3>Install PHP Manager for IIS </h3>
 </div>
-<img src=https://imgur.com/f9zE0Qb.png>
+<img src=https://imgur.com/ENsukJB.png>
  
- - 
+ - The next step is to install PHP manager for IIS.
 
 <div align="center">
 <h3> Create New Folder PHP in C: </h3>
 </div>
 <img src=https://imgur.com/okstLsI.png>
 
- - 
+ - While the files are downloading go to your C: folder in order to create a new folder and name it PHP. 
 
 <div align="center">
-<h3> </h3>
+<h3> PHP 7.3.8 Download/Extract </h3>
 </div>
-<img src=.png>
+<img src=https://imgur.com/Po9Z80F.png>
 
- - 
+ - After making the PHP folder the next step is to download PHP 7.3.8 software. Once it finishes downloading extract all the files into the PHP folder created in the previous step.
 
 <div align="center">
 <h3> </h3>
