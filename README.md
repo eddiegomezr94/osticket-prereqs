@@ -114,7 +114,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://imgur.com/qtXxJqZ.png" width="400" height="300"/> 
  </div>
 
-- After installing Microsoft Visual, download and install My SQL 5.5.62, set it to Standard Configuration and create a password for your domain.
+- After installing Microsoft Visual, download and install My SQL 5.5.62, set it to Standard Configuration and create a username and password for your domain.(It is important not to forget the username and password).
 
 <div align="center">
 <h3> Register PHP within IIS</h3>
@@ -148,73 +148,48 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <div align="center">
-<h3> </h3>
+<h3>Rename file / Disable Inheritance </h3>
 </div>
-<img src=.png>
+<div align="center">
+<img src="https://imgur.com/pbPvZkA.png" width="400" height="300"/> 
+<img src="https://imgur.com/0tJw64h.png" width="400" height="300"/> 
+ </div>
 
- - 
+ - After enabling extensions the next step is to rename file ost-sampleconfig.php to ost-config.php. To find that file go to C:-> inetpub-> wwwroot-> osTicket-> include-> ost-sampleconfig.php-> rename. Once it is renamed open properties-> Security-> Change Permissions-> Disable Inheritance-> Under specific group allow Everyone-> Select all permissions. 
 
 <div align="center">
-<h3> </h3>
+<h3>Install Heidi SQL / Create New Database </h3>
 </div>
-<img src=.png>
+<div align="center">
+<img src="https://imgur.com/RF7aG07.png" width="400" height="300"/> 
+<img src="https://imgur.com/0qyTQER.png" width="400" height="300"/> 
+ </div>
 
- - 
+ - The next step would be to install Heidi SQL. When it finishes installing open-> create a new session-> put in username and password from MYSQL server-> Connect to session-> Create Database and call it osTicket.
 
 <div align="center">
-<h3> </h3>
+<h3>Finish personal osTicket Setup </h3>
 </div>
-<img src=.png>
+<div>
+<img src="https://imgur.com/KFHUY1c.png" width="500" height="400"/> 
+<img src="https://imgur.com/QZyGYxb.png" width="500" height="400"/>
+</div>
 
- - 
-
+- After installing Heidi SQL the next step is to fill out and finish setting up personal osTicket system. Fill out administrator information and remember to put in username and password from MYSQL server when creating it in previous steps.  After hitting install now osTicket should open up and congradulate that it is up and running.
 
 <div align="center">
-<h3> </h3>
+<h3>Clean Up / Read Only</h3>
 </div>
-<img src=.png>
-
- - 
-
-
 <div align="center">
-<h3> </h3>
-</div>
-<img src=.png>
+<img src="https://imgur.com/7a6YxBr.png" width="400" height="300"/> 
+<img src="https://imgur.com/mbgX6z2.png" width="400" height="300"/> 
+ </div>
 
- - 
-
-
-<div align="center">
-<h3> </h3>
-</div>
-<img src=.png>
-
- - 
+ - In the last part of the installation in order to proceed safely within the osTicket system, for security purposes the software asks that you delete the "setup" folder that came with the download, and also asks to set permissions of everyone to "read" in ost-config.php folder. To delete "setup" go to C:-> inetpub-> wwwroot-> osTicket-> setup-> delete. To change permissions go to C:-> inetpub-> wwwroot-> osTicket-> include-> ost-sampleconfig.php-> Properties-> Security-> Permissions-> Read. This is the last "clean Up" step in order to start using the program.
 
 
-<div align="center">
-<h3> </h3>
-</div>
-<img src=.png>
-
- - 
 
 
-<div align="center">
-<h3> </h3>
-</div>
-<img src=.png>
-
- - 
-
-
-<div align="center">
-<h3> </h3>
-</div>
-<img src=.png>
-
- - 
 
 
 
