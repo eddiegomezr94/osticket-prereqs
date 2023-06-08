@@ -66,22 +66,24 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src=https://imgur.com/JxEkQ1W.png>
 
  - Once logging into the VM the next step is to enable CGI in order for PHP manager to install and work properly in the later steps. To do this open Control Panel-> Programs-> Turn Windows Features on/off-> Internet Information Services-> World Wide Web Services-> Application Development-> Check CGI. Another part of this step is to turn on Common HTTP features under World Wide Web Services. This step is done in order to install and use PHP manager for osTicket. 
- <div align="center">
-<h3> </h3>
+
+<div align="center">
+<h3> Install IIS Rewrite Module </h3>
 </div>
-<img src=.png>
+<img src=https://imgur.com/3ML6shu.png>
 
  - 
 
 <div align="center">
-<h3> </h3>
+<h3>Install PHP Manager for IIS </h3>
 </div>
-<img src=.png>
+<img src=https://imgur.com/f9zE0Qb.png>
+ 
  - 
 
 <div align="center">
-<h3> </h3>
+<h3> Create New Folder PHP in C: </h3>
 </div>
-<img src=.png>
+<img src=https://imgur.com/okstLsI.png>
 
  - 
