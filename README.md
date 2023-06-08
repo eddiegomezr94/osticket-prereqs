@@ -60,6 +60,28 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
  - After creating the VM, copy and paste the public IP address to the Remote Desktop Connection app on your computer. Then proceed to log into the VM using the username and password made when creating the VM.
 
-  
- 
+<div align="center">
+<h3>Enable CGI in IIS</h3>
+</div>
+<img src=https://imgur.com/JxEkQ1W.png>
 
+ - Once logging into the VM the next step is to enable CGI in order for PHP manager to install and work properly in the later steps. To do this open Control Panel-> Programs-> Turn Windows Features on/off-> Internet Information Services-> World Wide Web Services-> Application Development-> Check CGI. Another part of this step is to turn on Common HTTP features under World Wide Web Services. This step is done in order to install and use PHP manager for osTicket. 
+ <div align="center">
+<h3> </h3>
+</div>
+<img src=.png>
+
+ - 
+
+<div align="center">
+<h3> </h3>
+</div>
+<img src=.png>
+ - 
+
+<div align="center">
+<h3> </h3>
+</div>
+<img src=.png>
+
+ - 
