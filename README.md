@@ -31,9 +31,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Install/Extract osTicket v1.15.8 into wwwroot folder
   - Enable osTicket extensions
   - Rename ost-sampleconfig.php and assign new permissions
-  - Set up remainder of osTicket system
   - Install Heidi SQL
   - Create Database
+  - Set up remainder of osTicket system
   - Delete Setup file
   - Set "read" only permission in ost-config.php
 
